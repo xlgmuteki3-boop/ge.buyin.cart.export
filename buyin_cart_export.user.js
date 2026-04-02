@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         百应选品车一键抓取导出（独立版）
-// @namespace    ge.buyin.cart.export
-// @version      4.7.1
-// @description  巨量百应/罗盘选品车：预加载微轮次追底+卡片数进展；至「没有更多」；仅滚列表不滚整页；飞书写入
-// @author       you
+// @namespace    https://github.com/xlgmuteki3-boop/ge.buyin.cart.export
+// @version      4.7.2
+// @description  巨量百应/罗盘选品车抓取商品数据，预加载滚动到底，支持卡片进度展示与飞书写入
+// @author       xlgmuteki3-boop
+// @license      MIT
 // @match        https://buyin.jinritemai.com/*
 // @match        https://compass.jinritemai.com/*
 // @run-at       document-start
@@ -12,6 +13,8 @@
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @connect      open.feishu.cn
+// @downloadURL  https://raw.githubusercontent.com/xlgmuteki3-boop/ge.buyin.cart.export/main/buyin_cart_export.user.js
+// @updateURL    https://raw.githubusercontent.com/xlgmuteki3-boop/ge.buyin.cart.export/main/buyin_cart_export.user.js
 // ==/UserScript==
 
 (function () {
